@@ -37,9 +37,6 @@ const Login = ({ setUser, setName }) => {
           value={data}
         />
         <NavLink to="/profile">
-          {/* <button className="btn btns" onClick={handleClick}>
-            Login
-          </button> */}
           <Button onClick={handleClick} variant="contained">
             {" "}
             Login
