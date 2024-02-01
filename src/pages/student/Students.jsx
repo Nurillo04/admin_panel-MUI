@@ -74,7 +74,7 @@ const Students = () => {
                 <TableCell>{row.lastName}</TableCell>
                 <TableCell>{row.age}</TableCell>
                 <TableCell>
-                  <Actions />
+                  <Actions rows={rows} />
                 </TableCell>
               </TableRow>
             ))}

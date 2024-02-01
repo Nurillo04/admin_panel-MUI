@@ -11,7 +11,7 @@ const Login = ({ setUser, setName }) => {
 
   const handleClick = () => {
     setUser(data);
-    navigate("/profile");
+    navigate("/");
   };
   return (
     <div>
